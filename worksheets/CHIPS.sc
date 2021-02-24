@@ -1,18 +1,23 @@
-import scala.language.implicitConversions
+/*
+ * Copyright (c) 2021 FZI Forschungszentrum Informatik
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+//import scala.language.implicitConversions
+
 import chips.ast._
 import chips.InfixOps._
 import chips._
 
+// boolean property
 val rst = PBoolExpr(true)
-val rsts = Seq(PBoolExpr(true), PBoolExpr(false), PBoolExpr(true), PBoolExpr(false))
 
-// sequences
-// s1 ##1 s2 ##2 s3
-val sT = SBoolExpr(true)
+// bolean sequence
 val s1 = SBoolExpr(true)
 val s2 = SBoolExpr(true)
 val s3 = SBoolExpr(true)
 
-Assert.property("hallo") {
-  rst and rst
+Assert.property("prop1") {
+  s1 |=> rst and rst
 }
