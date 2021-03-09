@@ -23,3 +23,8 @@ specification.
 ## License
 
 [Apache License 2.0](./LICENSE)
+
+
+## Acknowledgment
+
+This research is partially funded by the German Federal Ministry of Education and Research (BMBF) within the project Scale4Edge (grant number 16ME0126).
