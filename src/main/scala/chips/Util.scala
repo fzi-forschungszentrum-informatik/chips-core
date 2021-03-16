@@ -118,7 +118,7 @@ object SLogic {
    * @return
    */
   def Or(sequences: SExpr*) =
-    sequences.tail.foldLeft(sequences.head)(_ and _)
+    sequences.tail.foldLeft(sequences.head)(_ or _)
 
   /**
    * Alias for [[Or]] operator.
