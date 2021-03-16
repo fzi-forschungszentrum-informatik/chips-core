@@ -184,7 +184,7 @@ In CHIPS property expressions are manipulated by property operators.
 All binary operators on properties are **left associative**.
 This is a restriction of the DSL embedding into the Scala metalanguage.
 Setting brackets correctly is therefore indispensable.
-All CHIPS property operators can also be used in **infix notation**  by adding the import: `import chips.InfixOps._`.
+All CHIPS property operators can also be used in **prefix notation**, also known as Polish notation, by adding the import: `import chips.PrefixOps._`.
 
 ### Basic Properties
 

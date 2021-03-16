@@ -7,12 +7,12 @@
 package chips
 
 /**
- * == Infix Operators ==
+ * == Prefix Operators ==
  *
- * Infix operators subsume sequence and property operators.
- * All infix operators are inlined at the call site.
+ * Prefix operators subsume sequence and property operators.
+ * All prefix operators are inlined at the call site.
  */
-object InfixOps {
+object PrefixOps {
 
   import chips.ast._
   import chips.{BInf}

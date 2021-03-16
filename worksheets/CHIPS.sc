@@ -7,7 +7,7 @@
 //import scala.language.implicitConversions
 
 import chips.ast._
-import chips.InfixOps._
+import chips.PrefixOps._
 import chips._
 
 // boolean property
